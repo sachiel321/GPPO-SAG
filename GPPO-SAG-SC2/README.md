@@ -2,8 +2,8 @@
 
  Guided Proximal Policy Optimization with Structured Action Graph via StarCraft II full game :
 
-- [X] First version of pre-trained SL and RL agent (only Zerg vs Zerg)
-- [X] Training code of Supervised Learning and Reinforcement Learning of GPPO-SAG
+-  First version of pre-trained SL and RL agent (only Zerg vs Zerg)
+-  Training code of Supervised Learning and Reinforcement Learning of GPPO-SAG
 
 ### Installation
 
