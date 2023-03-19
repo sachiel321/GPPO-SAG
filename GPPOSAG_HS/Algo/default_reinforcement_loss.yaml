@@ -1,0 +1,33 @@
+learner: 
+    fake_reward_prob: 1
+    loss_weights: 
+        baseline: 1.0
+        pg: 1.0
+        upgo: 1.0
+        kl: 1.0
+        kl_su: 1
+        action_type_kl: 0.1
+        entropy: 0.01
+    pg_head_weights: 
+        action_type: 1.0
+        target_card: 1.0
+        target_entity: 1.0
+        target_position: 1.0
+    upgo_head_weights: 
+        action_type: 1.0
+        target_card: 1.0
+        target_entity: 1.0
+        target_position: 1.0
+    entropy_head_weights: 
+        action_type: 1.0
+        target_card: 1.0
+        target_entity: 1.0
+        target_position: 1.0
+    kl_head_weights: 
+        action_type: 1.0
+        target_card: 1.0
+        target_entity: 1.0
+        target_position: 1.0
+    kl: 
+        action_type_kl_steps: 2400
+    gammas: 1.0
